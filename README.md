@@ -7,9 +7,7 @@ Facial expression recognition (FER) models are employed in many video-based affe
 %
 In this paper, personalized feature translation (PFT) is proposed for SFDA. Unlike current image translation methods for SFDA, our lightweight method operates in the latent space. We first pre-train the translator on the source domain data to transform the subject-specific style features from one source subject into another. Expression information is preserved by optimizing a combination of expression consistency and style-aware objectives. Then, the translator is adapted on neutral target data, without using source data or image synthesis. By translating in the latent space, PFT avoids the complexity and noise of face expression generation, producing discriminative embeddings optimized for classification. Using PFT eliminates the need for image synthesis, reduces computational overhead (using a lightweight translator), and only adapts part of the model, making the method efficient compared to image-based translation. Extensive experiments on four challenging video FER benchmark datasets, BioVid, StressID, BAH, and Aff-Wild2, show that PFT consistently outperforms state-of-the-art SFDA methods, providing a cost-effective approach that is suitable for real-world, privacy-sensitive FER applications. 
 
-<p align="center">
-  <img src="assets/Figure2_main.png" alt="Overview" width="80%">
-</p>
+<img src="assets/Figure2_main.png" alt="taxonomy" width="600">
 
 
 
