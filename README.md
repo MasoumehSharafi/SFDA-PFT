@@ -1,8 +1,8 @@
 # Personalized Feature Translation for Expression Recognition: An Efficient Source-Free Domain Adaptation Method
 
 
-<p align="center"><img src="assets/Motivation_figure_updated.png" alt="taxonomy" width="600">
-<p align="center"><img src="assets/Figure2_main.png" alt="taxonomy" width="600">
+<p align="center"><img src="assets/Motivation_figure_updated.png" alt="motivation" width="90%">
+<p align="center"><img src="assets/Figure2_main.png" alt="main" width=width="90%">
 
 ## Abstract
 Facial expression recognition (FER) models are employed in many video-based affective computing applications, such as human-computer interaction and healthcare monitoring.  However, deep FER models often struggle with subtle expressions and high inter-subject variability, limiting their performance in real-world applications. To improve their performance, source-free domain adaptation (SFDA) methods have been proposed to personalize a pretrained source model using only unlabeled target domain data, thereby avoiding data privacy, storage, and transmission constraints. This paper addresses a challenging scenario, where source data is unavailable for adaptation, and only unlabeled target data consisting solely of neutral expressions is available. SFDA methods are not typically designed to adapt using target data from only a single class. Further, using models to generate facial images with non-neutral expressions can be unstable and computationally intensive. 
