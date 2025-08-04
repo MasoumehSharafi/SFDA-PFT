@@ -26,6 +26,18 @@ tqdm
 ```sh
 Biovid datasets PartA can be downloaded from here: (https://www.nit.ovgu.de/BioVid.html#PubACII17)
 ```
+## Dataset Structure & Pairing
+The source training data should be organized into subject-specific folders. Each folder contains images with expression labels embedded in the filenames. The expression label (e.g., N for neutral, P for pain) appears at the end of each filename before the extension.
+
+source_sub1/
+├── Image1_P.jpg
+├── Image2_N.jpg
+...
+
+source_sub2/
+├── Image1_N.jpg
+├── Image2_P.jpg
+...
 
 ## Train the model on source domain
 ```sh
