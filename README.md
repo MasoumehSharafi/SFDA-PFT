@@ -28,9 +28,12 @@ tqdm
 ```
 
 
-## BioVid database
+## Datasets
 ```sh
-Biovid datasets PartA can be downloaded from here: (https://www.nit.ovgu.de/BioVid.html#PubACII17)
+Biovid: https://www.nit.ovgu.de/BioVid.html#PubACII17
+StressID: https://project.inria.fr/stressid/
+BAH: https://www.crhscm.ca/redcap/surveys/?s=LDMDDJR3AT9P37JY
+Aff-Wild2: https://sites.google.com/view/dimitrioskollias/databases/aff-wild2
 ```
 ## Dataset Structure & Pairing
 The source training data should be organized into subject-specific folders. Each folder contains images with expression labels embedded in the filenames. The expression label (e.g., N for neutral, P for pain) appears at the end of each filename before the extension. Target images follow the same filename structure, but all samples are from a single subject, not across subjects.
