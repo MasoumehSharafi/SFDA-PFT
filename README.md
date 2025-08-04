@@ -27,7 +27,7 @@ tqdm
 Biovid datasets PartA can be downloaded from here: (https://www.nit.ovgu.de/BioVid.html#PubACII17)
 ```
 ## Dataset Structure & Pairing
-The source training data should be organized into subject-specific folders. Each folder contains images with expression labels embedded in the filenames. The expression label (e.g., N for neutral, P for pain) appears at the end of each filename before the extension.
+The source training data should be organized into subject-specific folders. Each folder contains images with expression labels embedded in the filenames. The expression label (e.g., N for neutral, P for pain) appears at the end of each filename before the extension. Target images follow the same filename structure, but all samples are from a single subject, not across subjects.
 ```sh
 source_sub1/
 ├── Image1_P.jpg
@@ -42,14 +42,42 @@ source_sub2/
 
 ## Train the model on source domain
 ```sh
-python main_src.py --epoch 100 --batchsize 20 --lr 1e-5
+python train_translator.py \
+    --folder1 /path/to/source_sub1 \
+    --folder2 /path/to/source_sub2 \
+    --pretrained_F /path/to/source_F.pt \
+    --pretrained_B /path/to/source_B.pt \
+    --pretrained_C /path/to/source_C.pt \
+    --epochs 100 \
+    --batch_size 64 \
+    --lr 1e-4 \
+    --style_layers 0,1,2 \
+    --log_dir ./runs/pft_train \
+    --ckpt_dir ./checkpoints/pft_train
 ```
 
 ## Adaptation to target domains (subjects)
 ```sh
-python main_tar.py --epoch 25 --batchsize 32 --lr 1e-4 --biovid_annot_train $Path to the training data --biovid_annot_val $Path to the validation data --save_dir $Directory to save experiment results --img_dir Directory to save generated images --par_dir Directory to save the best parameters
+python train_translator.py \
+    --folder1 /path/to/target_neutral \
+    --folder2 /path/to/target_neutral \
+    --pretrained_F /path/to/source_F.pt \
+    --pretrained_B /path/to/source_B.pt \
+    --pretrained_C /path/to/source_C.pt \
+    --pretrained_T /path/to/source_C.pt 
+    --epochs 25 \
+    --batch_size 32 \
+    --lr 1e-4 \
+    --log_dir ./runs/pft_target \
+    --ckpt_dir ./checkpoints/pft_target
 ```
 ## Test
 ```sh
-python test.py
+python test_target.py \
+    --test_root /path/to/target_labeled \
+    --ckpt_dir /path/to/translator_checkpoints \
+    --pretrained_B /path/to/source_B.pt \
+    --pretrained_C /path/to/source_C.pt \
+    --output_dir ./results/ \
+    --subject_name SubjectX
 ```
