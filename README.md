@@ -30,14 +30,16 @@ Biovid datasets PartA can be downloaded from here: (https://www.nit.ovgu.de/BioV
 The source training data should be organized into subject-specific folders. Each folder contains images with expression labels embedded in the filenames. The expression label (e.g., N for neutral, P for pain) appears at the end of each filename before the extension.
 
 source_sub1/
-├── Image1_P.jpg/
-├── Image2_N.jpg/
-...
-
+    0001_N.jpg
+    0002_P.jpg
+    0003_N.jpg
+    ...
 source_sub2/
-├── Image1_N.jpg/
-├── Image2_P.jpg/
-...
+    0001_P.jpg
+    0002_N.jpg
+    0003_P.jpg
+    ...
+
 
 ## Train the model on source domain
 ```sh
