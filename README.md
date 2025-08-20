@@ -12,9 +12,10 @@ Eric Granger<sup>1</sup>**
 
 <sup>1</sup> LIVIA, LLS, Dept. of Systems Engineering, ÉTS, Montreal, Canada
 <br/>
+<sup>3</sup> Dept. of Electrical and Computer Engineering, Queen’s University, Kingston, Canada
+<br/>
 <sup>2</sup> LIVIA, Dept. of Software and IT Engineering, ÉTS, Montreal, Canada
 <br/>
-<sup>3</sup> Dept. of Electrical and Computer Engineering, Queen’s University, Kingston, Canada
 <sup>4</sup> Dept. of Health, Kinesiology \& Applied Physiology, Concordia University, Montreal, Canada
 <br/>
 <sup>5</sup> Montreal Behavioural Medicine Centre, Montreal, Canada
