@@ -1,8 +1,28 @@
 # Personalized Feature Translation for Expression Recognition: An Efficient Source-Free Domain Adaptation Method
 
+by
+**Masoumeh Sharafi<sup>1</sup>,
+Soufiane Belharbi<sup>1</sup>,
+Houssem Ben Salem<sup>1</sup>,
+Ali Etemad<sup>2</sup>,
+Alessandro Lameiras Koerich<sup>3</sup>,
+Marco Pedersoli<sup>1</sup>,
+Simon Bacon<sup>4,5</sup>,
+Eric Granger<sup>1</sup>**
+
+<sup>1</sup> LIVIA, LLS, Dept. of Systems Engineering, ÉTS, Montreal, Canada
+<br/>
+<sup>2</sup> LIVIA, Dept. of Software and IT Engineering, ÉTS, Montreal, Canada
+<br/>
+<sup>3</sup> Dept. of Electrical and Computer Engineering, Queen’s University, Kingston, Canada
+<sup>4</sup> Dept. of Health, Kinesiology \& Applied Physiology, Concordia University, Montreal, Canada
+<br/>
+<sup>5</sup> Montreal Behavioural Medicine Centre, Montreal, Canada
 
 <p align="center"><img src="assets/Motivation_figure_updated.png" alt="motivation" width="600">
 <p align="center"><img src="assets/Figure2_main.png" alt="main" width="600">
+
+[![arXiv](https://img.shields.io/badge/arXiv-2508.09202-b31b1b.svg)](https://arxiv.org/pdf/2508.09202)
 
 ## Abstract
 Facial expression recognition (FER) models are employed in many video-based affective computing applications, such as human-computer interaction and healthcare monitoring.  However, deep FER models often struggle with subtle expressions and high inter-subject variability, limiting their performance in real-world applications. To improve their performance, source-free domain adaptation (SFDA) methods have been proposed to personalize a pretrained source model using only unlabeled target domain data, thereby avoiding data privacy, storage, and transmission constraints. This paper addresses a challenging scenario, where source data is unavailable for adaptation, and only unlabeled target data consisting solely of neutral expressions is available. SFDA methods are not typically designed to adapt using target data from only a single class. Further, using models to generate facial images with non-neutral expressions can be unstable and computationally intensive. 
