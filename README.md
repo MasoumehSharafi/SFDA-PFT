@@ -3,22 +3,24 @@
 by
 **Masoumeh Sharafi<sup>1</sup>,
 Soufiane Belharbi<sup>1</sup>,
+Muhammad Osama Zeeshan<sup>1</sup>,
 Houssem Ben Salem<sup>1</sup>,
-Ali Etemad<sup>2</sup>,
-Alessandro Lameiras Koerich<sup>3</sup>,
+Ali Etemad<sup>5</sup>,
+Alessandro Lameiras Koerich<sup>2</sup>,
 Marco Pedersoli<sup>1</sup>,
-Simon Bacon<sup>4,5</sup>,
+Simon Bacon<sup>3,4</sup>,
 Eric Granger<sup>1</sup>**
 
 <sup>1</sup> LIVIA, LLS, Dept. of Systems Engineering, ÉTS, Montreal, Canada
-<br/>
-<sup>3</sup> Dept. of Electrical and Computer Engineering, Queen’s University, Kingston, Canada
 <br/>
 <sup>2</sup> LIVIA, Dept. of Software and IT Engineering, ÉTS, Montreal, Canada
 <br/>
 <sup>4</sup> Dept. of Health, Kinesiology \& Applied Physiology, Concordia University, Montreal, Canada
 <br/>
 <sup>5</sup> Montreal Behavioural Medicine Centre, Montreal, Canada
+<br/>
+<sup>3</sup> Dept. of Electrical and Computer Engineering, Queen’s University, Kingston, Canada
+
 
 <p align="center"><img src="assets/Motivation_figure_updated.png" alt="motivation" width="600">
 <p align="center"><img src="assets/Figure2_main.png" alt="main" width="600">
