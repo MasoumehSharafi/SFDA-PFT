@@ -22,8 +22,8 @@ Eric Granger<sup>1</sup>**
 <sup>3</sup> Dept. of Electrical and Computer Engineering, Queen’s University, Kingston, Canada
 
 
-<p align="center"><img src="assets/Motivation_figure_updated.png" alt="motivation" width="600">
-<p align="center"><img src="assets/Figure2_main.png" alt="main" width="600">
+<p align="center"><img src="assets/Motivation_ICLR-last.png" alt="motivation" width="600">
+<p align="center"><img src="assets/Main_Fig_ICLR.png" alt="main" width="600">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2508.09202-b31b1b.svg)](https://arxiv.org/pdf/2508.09202)
 
