@@ -117,7 +117,7 @@ python test_target.py \
 ```sh
 @inproceedings{sharafi26pers,
   title={Personalized Feature Translation for Expression Recognition: An Efficient Source-Free Domain Adaptation Method},
-  author={Sharafi, M. and Belharbi, S. and Ben Salem, H. and Etemad, A. and  Koerich, A.L. and Pedersoli, M. and Bacon, S. and Granger, E.},
+  author={Sharafi, M. and Belharbi, S. Zeeshan, M. O. and Ben Salem, H. and Etemad, A. and  Koerich, A.L. and Pedersoli, M. and Bacon, S. and Granger, E.},
   booktitle={ICLR},
   year={2026}
 }
